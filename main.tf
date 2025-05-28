@@ -10,6 +10,6 @@ resource "aws_instance" "jackpot" {
   key_name      = var.key_name  # Optional: use for SSH
 
   tags = {
-    Name = "terraform-jackpot"
+    Name = "terraform-jackpoto"
   }
 }
